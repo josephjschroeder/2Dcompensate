@@ -7,7 +7,7 @@ The program comprises two tabs - one for the definition of the "error maps" for 
 
 The "Error map" tab contains adjustable tables for the measured X and Y deviations from nominal at the intersections of grid lines. Those deviations are found by drawing or cutting a grid pattern onto the work area then measuring the horizontal (X) and vertical (Y) dimensions from the center lines to each intersection. In the example below, a 10" x 10" (254mm x 254mm) grid was used to cover a 96" x 48" work area. In use, error values for coordinates inside the grid will be interpolated; errors for values outside the grid will be extrapolated.
 
-'''
+```
    -1016     -762     -508     -254      X 0      254      508      762      1016
  508  +--------+--------+--------+--------+--------+--------+--------+--------+
       |        |        |        |        |        |        |        |        |
@@ -18,7 +18,7 @@ Y 0   +--------+--------+--------+--------+--------+--------+--------+--------+
 -254  +--------+--------+--------+--------+--------+--------+--------+--------+
       |        |        |        |        |        |        |        |        |
 -508  +--------+--------+--------+--------+--------+--------+--------+--------+
-'''
+```
 
 Note that the initial release of this program does not account for circular arc (i.e., G2 / G3) motion.
 
