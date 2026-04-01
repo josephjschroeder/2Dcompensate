@@ -45,3 +45,11 @@ Y error map: mm
   "GPCA GP22 Ink Refill Cartridges for Gel Pens, Medium Point Size, 3-Pack, Black"
 
 Once the errors are characterized, use the "Compensate" tab to open and compensate a G code file.
+
+"Open" will display a file browser to navigate to and select a G code file (*.gcode, *.nc or *.txt). If the "Compensate automatically" checkbox if checked, the file will be compensated using the current values on the "Error" tab, and saved with "_compensated" appended to the file name and included as a comment in the first line of the file.
+
+"Verify calculations" will cause comments to be inserted in the file for each X and Y value modified, showing the claculation that was applied. "Show line numbers" will number the lines in the editor window. It will not output those line numbers to the compensated file.
+
+The "Find", "Replace with", and "Replace all" buttons provide a very basic search and replace functionality.
+
+"Save" will overwrite the listed file with the content of the editor window. It is not enabled unless changes are made.
