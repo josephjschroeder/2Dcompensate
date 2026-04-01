@@ -26,6 +26,7 @@ Multiple error map versions can be saved and later recalled.  The format of the 
 
 In this example, errors were measured to the closest 1/32" on a 10" x 10" grid, drawn on 48" wide kraft paper with a pen inserted into a 3D printed holder* in place of the router collet.
 
+```
 X error map: mm
               -1016.0     -762.0     -508.0     -254.0        0.0      254.0      508.0      762.0     1016.0
      508.0          0          0          0          0          0          0          0          0    -1.5875
@@ -41,6 +42,7 @@ Y error map: mm
        0.0          0          0          0          0          0          0          0          0          0
     -254.0    -1.5875  -0.793750    -1.5875    -1.5875    -1.5875    -1.5875  -0.793750  -0.793750   0.793750
     -508.0    -1.5875  -2.381250  -3.175000  -3.175000  -3.175000  -3.175000  -2.381250    -1.5875          0
+```
 
 * The pen holder used was a remix of https://forums.maslowcnc.com/uploads/short-url/myx6xtKND4mVYCCKSlAYYUWbZNp.step
   Modified to fit a G22 pen refill, to eliminate the "cut down to 2.4" Overall Length" part! On Amazon:
