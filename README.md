@@ -59,7 +59,7 @@ The "Find", "Replace with", and "Replace all" buttons provide a very basic searc
 "Save" will overwrite the listed file with the content of the editor window. It is not enabled unless changes are made.
 
 The files made available here include:
-   The Python (3.14) source code, compcalc.py
-   The package requirements.txt
-   A "Compcalc" folder, containing an executable (pyinstaller) version with all requirements
+-   The Python (3.14) source code, compcalc.py
+-   The package requirements.txt
+-   A "Compcalc" folder, containing an executable (pyinstaller) version with all requirements
    
